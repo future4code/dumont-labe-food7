@@ -1,68 +1,76 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Future Eats 7
 
-## Available Scripts
+# Nome dos integrantes: 
+Daltro Machado
+Indio Medeiros
+Hendrik Liu
+Jose Barbosa Junior
 
-In the project directory, you can run:
 
-### `npm start`
+# O que funciona:
+* Initial Page:
+Renderiza logotipo
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+* Login Page
+Validação de usuário: valida email e senha
+Link para Tela de Cadastro
+Funcão botão Entrar ok
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Sign Up Page
+Validação dos campos do formulário
+Botão Criar usuário ok
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Address Page
+Validação dos campos do formulário
+Salva as informações e encaminha o usuário para o Feed Page
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Profile Page
+Renderiza as informações do usuário
+Botão para editar usuário
+Renderiza o endereço do usuário
+Botão para editar endereço
+Renderiza o Histórico de pedidos
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* Edit Profile Page
+Renderiza as informações do usuário
+Botão para salvar as alteraçoes
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* Feed Page
+Botão de pesquisa
+Link para categorias 
+Card dos restaurantes
+Atalho para "home, carrinho e profile"
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+* Restaurant Page 
+Renderiza as informações do restaurante
+Renderiza os cards de produtos do restaurante
+Botão de adicionar e remover produtos
+Botão de adicionar a quantidade de produtos no carrinho
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Cart Page
+Renderiza endereço de entrega e dá opção de alteração
+Renderiza informações do restaurante escolhido
+Renderiza os cards dos  produtos escolhidos e dá a opção de remover produto 
+Calculo do frete e Subtotal
+Seleciona Forma de pagamento
+Botão confirmar pedido
+Atalhos
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+* Pedido em andamento
+Renderiza as informações do pedido em andamento como Nome do restaurante e Subtotal.
 
-### Analyzing the Bundle Size
+# O que não funciona: 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Link do Surge: 
+<https://dumont-labe-food7.surge.sh>
+---
